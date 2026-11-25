@@ -11,8 +11,7 @@ class FAQRetriever:
         self.low_threshold = low_threshold
 
         self.data = pd.read_csv(csv_path)
-        self.vectorizer = TfidfVectorizer()
-
+        self.vectorizer = TfidfVectorizer(stop_words="english")
         self.faq_vectors = self.vectorizer.fit_transform(
             self.data["Question"]
         )
