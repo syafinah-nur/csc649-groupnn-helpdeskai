@@ -36,7 +36,16 @@ class UFix:
         # Validate user input
         if not user_question or not user_question.strip():
             return "Please enter a valid question."
+        # Handle simple greetings
+        greetings = {"hi", "hello", "hey", "hai", "helo", "salam",
+                     "assalamualaikum", "good morning",
+                     "good afternoon", "good evening"}
 
+        if user_question.strip().lower().rstrip("!? .") in greetings:
+            return (
+                "Hello! I'm uFix, your UiTM IT helpdesk assistant. "
+                "How can I help you today?"
+            )
         # Retrieve the relevant FAQ
         result = self.retriever.search(user_question)
 
@@ -70,7 +79,7 @@ class UFix:
 
         # Handle API failures
         except Exception as e:
-            print(f"[UFix] LLM call failed: {type(e).__name__}")
+            print(f"[UFix] LLM call failed: {e}")
 
             return (
                 "The AI service is currently unavailable. "
