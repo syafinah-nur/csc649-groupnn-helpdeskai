@@ -1,0 +1,19 @@
+Test_ID,Category,Question,Expected_FAQ,Expected_Behaviour
+T01,Exact,How do I connect to UiTM campus Wi-Fi?,How do I connect to UiTM campus Wi-Fi?,Answer
+T02,Exact,How do I log in to the UiTM iStudent Portal?,How do I log in to the UiTM iStudent Portal?,Answer
+T03,Exact,Can I submit multiple files for an assignment on UFUTURE?,Can I submit multiple files for an assignment on UFUTURE?,Answer
+T04,Rephrased,How can I access campus Wi-Fi?,How do I connect to UiTM campus Wi-Fi?,Answer
+T05,Rephrased,I forgot my iStudent Portal password,What should I do if I forget my UiTM iStudent Portal password?,Answer
+T06,Rephrased,How can I use VPN outside campus?,How do I access UiTM internal systems from off-campus using VPN?,Answer
+T07,Short,Google Drive storage limit,What is the Google Drive storage limit for UiTM students and staff?,Answer
+T08,Ambiguous,I need help with my account,,Clarification
+T09,Unsupported,How to cook fried rice?,,Fallback
+T10,Unsupported,What is the weather tomorrow?,,Fallback
+T11,Empty,,,Validation
+T12,Exact,How do I access and manage my UiTM Digital Student ID?,How do I access and manage my UiTM Digital Student ID?,Answer
+T13,Rephrased,How long does my password reset link last?,How long is the password reset link valid for UiTM portal accounts?,Answer
+T14,Short,SIMS account disabled,What should staff do if SIMS shows Account Disabled or Access Expired?,Answer
+T15,Rephrased,How can visitors connect to eduroam?,How do visiting students and researchers connect to eduroam Wi-Fi at UiTM?,Answer
+T16,Short,Laptop overheating,What should I do if my computer or laptop is overheating?,Answer
+T17,Exact,Can I change my profile picture directly inside UFUTURE?,Can I change my profile picture directly inside UFUTURE?,Answer
+T18,Unsupported,How do I book a flight ticket?,,Fallback
