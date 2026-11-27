@@ -50,7 +50,7 @@ if not st.session_state.messages:
 
 # Sidebar
 with st.sidebar:
-    st.header("Supported IT Services")
+    st.header("Common IT Topics")
 
     st.markdown("""
     - Campus Wi-Fi
@@ -59,11 +59,6 @@ with st.sidebar:
     - Google Workspace
     - Password reset
     - VPN access
-    - Digital Student ID
-    - ICT Helpdesk and Reporting
-    - University Software and Licensing
-    - Digital Library and Research Tools
-    - Basic Computer Troubleshooting
     """)
 
     st.divider()
